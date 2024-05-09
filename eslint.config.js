@@ -1,4 +1,4 @@
-import { default as firefoxicEslintConfigJs, globals } from "./lib/index.js"
+import { default as firefoxicEslintConfig, globals } from "./lib/index.js"
 
 export default [
 	{
@@ -8,5 +8,5 @@ export default [
 			},
 		},
 	},
-	...firefoxicEslintConfigJs,
+	...firefoxicEslintConfig,
 ]
