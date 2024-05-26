@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [2.0.0] — 2024–05–26
+
 ### Changed
 
 - Multiline comments (except jsDoc) should now be sequences of single-line comments.
@@ -21,5 +23,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/codeguide/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/firefoxic/codeguide/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/firefoxic/codeguide/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/firefoxic/codeguide/releases/tag/v1.0.0
