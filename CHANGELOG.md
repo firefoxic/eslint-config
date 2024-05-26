@@ -11,6 +11,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Multiline comments (except jsDoc) should now be sequences of single-line comments.
 
+### Fixed
+
+- Irregular whitespaces are now allowed in comments, regular expressions, strings, template literals, and JSX-like text.
+
 ## [1.0.0] — 2024–05–06
 
 ### Added
