@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [2.2.0] — 2024–08–14
+
 ### Added
 
 - Irregular whitespaces are no longer prohibited. That's for sure now 🤭
@@ -33,7 +35,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/firefoxic/eslint-config/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/firefoxic/eslint-config/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/firefoxic/eslint-config/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/firefoxic/eslint-config/releases/tag/v1.0.0
