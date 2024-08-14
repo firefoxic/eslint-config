@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Added
+
+- Irregular whitespaces are no longer prohibited. That's for sure now 🤭
+
 ## [2.1.0] — 2024–08–14
 
 ### Added
