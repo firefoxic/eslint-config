@@ -30,6 +30,7 @@
 	"dependencies": {
 		"@eslint/js": "^9.9.0",
 		"@stylistic/eslint-plugin-js": "^2.6.2",
+		"eslint-plugin-prefer-let": "^4.0.0",
 		"globals": "^15.9.0"
 	},
 	"scripts": {

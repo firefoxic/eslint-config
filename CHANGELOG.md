@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Changed
+
+- `const` bindings are now only allowed at the top level of the module’s scope, so that it can represent a value that is a true, dependency-free constant such as `π`, `ℯ`, etc…
+
 ## [2.2.0] — 2024–08–14
 
 ### Added
