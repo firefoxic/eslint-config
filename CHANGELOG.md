@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Fixed
+
+- Type definitions have now been added to the package.
+
 ## [3.0.0] — 2024–08–18
 
 ### Changed

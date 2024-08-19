@@ -20,8 +20,12 @@
 		"node": "^18.12 || >=20.9"
 	},
 	"packageManager": "pnpm@9.7.1",
-	"exports": "./lib/index.js",
+	"exports": {
+		"types": "./lib/index.d.ts",
+		"default": "./lib/index.js"
+	},
 	"files": [
+		"./lib/index.d.ts",
 		"./lib/index.js"
 	],
 	"peerDependencies": {
