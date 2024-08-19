@@ -34,7 +34,7 @@
 		"globals": "^15.9.0"
 	},
 	"scripts": {
-		"prepare": "husky",
+		"prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
 		"lint": "eslint",
 		"pretest": "pnpm lint",
 		"test": "node --test",
@@ -45,8 +45,7 @@
 	},
 	"devDependencies": {
 		"@firefoxic/update-changelog": "^0.2.0",
-		"eslint": "^9.9.0",
-		"husky": "^9.1.4"
+		"eslint": "^9.9.0"
 	},
 	"keywords": [
 		"config",
