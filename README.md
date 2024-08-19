@@ -50,4 +50,4 @@ export default [
 [npm-image]: https://badge.fury.io/js/@firefoxic%2Feslint-config.svg
 
 [test-url]: https://github.com/firefoxic/eslint-config/actions
-[test-image]: https://github.com/firefoxic/eslint-config/actions/workflows/test.yml/badge.svg?branch=main
+[test-image]: https://github.com/firefoxic/eslint-config/actions/workflows/test.yaml/badge.svg?branch=main
