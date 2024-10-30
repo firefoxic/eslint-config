@@ -17,9 +17,9 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": "^18.12 || >=20.9"
+		"node": "^20.12 || >=22.11"
 	},
-	"packageManager": "pnpm@9.7.1",
+	"packageManager": "pnpm@9.12.3",
 	"exports": {
 		"types": "./lib/index.d.ts",
 		"default": "./lib/index.js"
@@ -29,16 +29,16 @@
 		"./lib/index.js"
 	],
 	"peerDependencies": {
-		"eslint": "^9.9.0"
+		"eslint": "^9.13.0"
 	},
 	"dependencies": {
-		"@eslint/js": "^9.9.0",
-		"@stylistic/eslint-plugin-js": "^2.6.4",
+		"@eslint/js": "^9.13.0",
+		"@stylistic/eslint-plugin-js": "^2.9.0",
 		"eslint-plugin-prefer-let": "^4.0.0",
-		"globals": "^15.9.0"
+		"globals": "^15.11.0"
 	},
 	"scripts": {
-		"prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
+		"prepare": "git config core.hooksPath .git-hooks || true",
 		"lint": "eslint",
 		"pretest": "pnpm lint",
 		"test": "node --test",
@@ -48,8 +48,8 @@
 		"postpublish": "git push --follow-tags"
 	},
 	"devDependencies": {
-		"@firefoxic/update-changelog": "^0.2.0",
-		"eslint": "^9.9.0"
+		"@firefoxic/update-changelog": "^0.2.1",
+		"eslint": "^9.13.0"
 	},
 	"keywords": [
 		"config",
