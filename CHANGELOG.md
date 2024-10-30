@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [4.0.0] — 2024–10–30
+
 ### Changed
 
 - The config is now required `eslint` version `9.13` or higher and `node.js` version `20.12` or higher except version `21`.
@@ -51,7 +53,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v3.0.1...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/firefoxic/eslint-config/compare/v3.0.1...v4.0.0
 [3.0.1]: https://github.com/firefoxic/eslint-config/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/firefoxic/eslint-config/compare/v2.2.0...v3.0.0
 [2.2.0]: https://github.com/firefoxic/eslint-config/compare/v2.1.0...v2.2.0
