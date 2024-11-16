@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Changed
+
+- The config is now required `eslint` version `9.15` or higher and `node.js` version `20.13` or higher except version `21`.
+
 ## [4.0.0] — 2024–10–30
 
 ### Changed
