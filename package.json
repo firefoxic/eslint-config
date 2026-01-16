@@ -19,7 +19,6 @@
 	"engines": {
 		"node": "^20.13 || >=22.11"
 	},
-	"packageManager": "pnpm@9.13.2",
 	"exports": {
 		"types": "./lib/index.d.ts",
 		"default": "./lib/index.js"
