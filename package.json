@@ -40,14 +40,9 @@
 		"prepare": "git config core.hooksPath .githooks",
 		"lint": "eslint",
 		"pretest": "pnpm lint",
-		"test": "node --test",
-		"preversion": "pnpm test",
-		"version": "update-changelog",
-		"postversion": "pnpm publish --provenance --access public --no-git-checks",
-		"postpublish": "git push --follow-tags"
+		"test": "node --test"
 	},
 	"devDependencies": {
-		"@firefoxic/update-changelog": "^1.0.0",
 		"eslint": "^9.15.0"
 	},
 	"keywords": [
