@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then against=HEAD
+else against=$(git hash-object -t tree /dev/null)
+fi
+
+git diff-index --check --cached "$against" --
+
+git stash -ku --quiet
+trap "git stash pop --quiet" EXIT
+
+changed_files=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(js|ts)$') || true
+
+if test -z "$changed_files"
+then exit 0
+fi
+
+node --run lint -- $changed_files
+
+node --test --test-reporter dot
