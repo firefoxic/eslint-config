@@ -18,6 +18,6 @@ if test -z "$changed_files"
 then exit 0
 fi
 
-node --run lint -- $changed_files
+node --run eslint -- $changed_files
 
 node --test --test-reporter dot

@@ -20,8 +20,8 @@
 		"node": ">=20.19"
 	},
 	"exports": {
-		"types": "./lib/index.d.ts",
-		"default": "./lib/index.js"
+		"default": "./lib/index.js",
+		"types": "./lib/index.d.ts"
 	},
 	"files": [
 		"./lib/index.d.ts",
@@ -37,10 +37,8 @@
 		"globals": "^17.0.0"
 	},
 	"scripts": {
-		"prepare": "git config core.hooksPath .githooks",
-		"lint": "eslint",
-		"pretest": "pnpm lint",
-		"test": "node --test"
+		"help": "make help",
+		"eslint": "eslint"
 	},
 	"devDependencies": {
 		"eslint": "^9.39.2"

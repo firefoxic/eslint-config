@@ -24,4 +24,5 @@ jobs:
           node-version-file: package.json
           cache: pnpm
       - run: pnpm install
-      - run: pnpm test
+      - run: make lint
+      - run: make test
