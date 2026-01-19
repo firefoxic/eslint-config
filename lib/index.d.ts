@@ -1,7 +1,8 @@
-declare module '@firefoxic/eslint-config' {
-	import { Linter } from 'eslint';
+declare module "@firefoxic/eslint-config" {
+	import { Linter } from "eslint"
+	import globals from "globals"
 
-	export let globals: any;
-	let firefoxicEslintConfig: Linter.Config;
-	export default firefoxicEslintConfig;
+	export type GlobalsType = typeof globals
+	let firefoxicEslintConfig: Linter.Config
+	export default firefoxicEslintConfig
 }

@@ -17,7 +17,7 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": "^20.13 || >=22.11"
+		"node": ">=20.19"
 	},
 	"exports": {
 		"types": "./lib/index.d.ts",
@@ -28,13 +28,13 @@
 		"./lib/index.js"
 	],
 	"peerDependencies": {
-		"eslint": "^9.15.0"
+		"eslint": "^9.39.2"
 	},
 	"dependencies": {
-		"@eslint/js": "^9.15.0",
-		"@stylistic/eslint-plugin-js": "^2.10.1",
-		"eslint-plugin-prefer-let": "^4.0.0",
-		"globals": "^15.12.0"
+		"@eslint/js": "^9.39.2",
+		"@stylistic/eslint-plugin": "^5.7.0",
+		"eslint-plugin-prefer-let": "^4.0.1",
+		"globals": "^17.0.0"
 	},
 	"scripts": {
 		"prepare": "git config core.hooksPath .githooks",
@@ -43,7 +43,7 @@
 		"test": "node --test"
 	},
 	"devDependencies": {
-		"eslint": "^9.15.0"
+		"eslint": "^9.39.2"
 	},
 	"keywords": [
 		"config",
