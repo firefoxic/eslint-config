@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 - The config is now required:
 	- `eslint` version `9.39.2` or higher.
 	- `node.js` version `20.19.0` or higher.
+- Imports and re-exports are now grouped and sorted (with autofix).
 
 ## [5.0.0] — 2024–11–16
 
