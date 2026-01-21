@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [6.0.1] — 2026–01–21
+
 ### Fixed
 
 - All necessary files are now included in the npm package.
@@ -89,7 +91,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v6.0.0...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v6.0.1...HEAD
+[6.0.1]: https://github.com/firefoxic/eslint-config/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/firefoxic/eslint-config/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/firefoxic/eslint-config/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/firefoxic/eslint-config/compare/v3.0.1...v4.0.0
