@@ -13,6 +13,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 	- `eslint` version `9.39.2` or higher.
 	- `node.js` version `20.19.0` or higher.
 - Imports and re-exports are now grouped and sorted (with autofix).
+- Settings added for the following rules:
+	- `@stylistic/curly-newline`
+	- `@stylistic/indent-binary-ops`
+	- `@stylistic/member-delimiter-style`
+	- `@stylistic/no-confusing-arrow`
+	- `@stylistic/one-var-declaration-per-line`
+	- `@stylistic/type-annotation-spacing`
+	- `@stylistic/type-generic-spacing`
+	- `@stylistic/type-named-tuple-spacing`
 
 ## [5.0.0] — 2024–11–16
 
