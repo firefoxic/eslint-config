@@ -27,6 +27,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 	- `@stylistic/type-annotation-spacing`
 	- `@stylistic/type-generic-spacing`
 	- `@stylistic/type-named-tuple-spacing`
+	- `enough-is-enough/no-multiline-named-imports`
+	- `enough-is-enough/no-single-quotes-in-imports-and-object-keys`
 
 ## [5.0.0] — 2024–11–16
 
