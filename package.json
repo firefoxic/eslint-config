@@ -24,8 +24,8 @@
 		"types": "./lib/index.d.ts"
 	},
 	"files": [
-		"./lib/index.d.ts",
-		"./lib/index.js"
+		"./lib/**/*.d.ts",
+		"./lib/**/*.js"
 	],
 	"peerDependencies": {
 		"eslint": "^9.39.2"

@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Fixed
+
+- All necessary files are now included in the npm package.
+
 ## [6.0.0] — 2026–01–21
 
 ### Changed
