@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [7.0.0] — 2026–02–07
+
 ### Changed
 
 - The config is now required `eslint` version `10.0.0` or higher.
@@ -95,7 +97,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v6.0.1...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v7.0.0...HEAD
+[7.0.0]: https://github.com/firefoxic/eslint-config/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/firefoxic/eslint-config/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/firefoxic/eslint-config/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/firefoxic/eslint-config/compare/v4.0.0...v5.0.0
