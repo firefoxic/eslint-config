@@ -25,14 +25,14 @@
 	},
 	"files": [
 		"./lib/**/*.d.ts",
-		"./lib/**/*.js"
+		"./lib/**/*.js",
+		"!**/*.test.js"
 	],
 	"peerDependencies": {
 		"eslint": "^10.0.0"
 	},
 	"dependencies": {
 		"@stylistic/eslint-plugin": "^5.7.1",
-		"eslint-plugin-prefer-let": "^4.0.1",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
 		"globals": "^17.3.0"
 	},
@@ -41,6 +41,7 @@
 		"eslint": "eslint"
 	},
 	"devDependencies": {
+		"@typescript-eslint/parser": "^8.54.0",
 		"eslint": "^10.0.0"
 	},
 	"keywords": [
