@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Changed
+
+- The config is now required `eslint` version `10.0.0` or higher.
+
 ## [6.0.1] — 2026–01–21
 
 ### Fixed
