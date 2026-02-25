@@ -33,7 +33,7 @@
 		"eslint": "^10.0.0"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "^5.7.1",
+		"@stylistic/eslint-plugin": "^5.9.0",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
 		"globals": "^17.3.0"
 	},
@@ -41,8 +41,8 @@
 		"help": "make help"
 	},
 	"devDependencies": {
-		"@typescript-eslint/parser": "^8.54.0",
-		"eslint": "^10.0.0"
+		"@typescript-eslint/parser": "^8.56.1",
+		"eslint": "^10.0.2"
 	},
 	"keywords": [
 		"config",
