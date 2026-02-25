@@ -46,7 +46,7 @@ export default [
 [changelog-url]: https://github.com/firefoxic/eslint-config/blob/main/CHANGELOG.md
 [changelog-image]: https://img.shields.io/badge/CHANGELOG-md-limegreen
 
-[npm-url]: https://npmjs.org/package/@firefoxic/eslint-config
+[npm-url]: https://www.npmjs.com/package/@firefoxic/eslint-config
 [npm-image]: https://badge.fury.io/js/@firefoxic%2Feslint-config.svg
 
 [test-url]: https://github.com/firefoxic/eslint-config/actions
