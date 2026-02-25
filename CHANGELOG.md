@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+### Changed
+
+- Imports are now grouped in the following order:
+	1. Node.js modules,
+	2. Foreign modules,
+	3. Styles,
+	4. Absolute imports (@/...),
+	5. Relative imports (up),
+	6. Relative imports (down).
+
 ## [7.0.0] — 2026–02–07
 
 ### Changed
