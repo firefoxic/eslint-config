@@ -37,8 +37,7 @@
 		"globals": "^17.3.0"
 	},
 	"scripts": {
-		"help": "make help",
-		"eslint": "eslint"
+		"help": "make help"
 	},
 	"devDependencies": {
 		"@typescript-eslint/parser": "^8.54.0",
