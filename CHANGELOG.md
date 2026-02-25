@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [8.0.0] — 2026–02–25
+
 ### Changed
 
 - Imports are now grouped in the following order:
@@ -107,7 +109,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v7.0.0...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v8.0.0...HEAD
+[8.0.0]: https://github.com/firefoxic/eslint-config/compare/v7.0.0...v8.0.0
 [7.0.0]: https://github.com/firefoxic/eslint-config/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/firefoxic/eslint-config/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/firefoxic/eslint-config/compare/v5.0.0...v6.0.0
