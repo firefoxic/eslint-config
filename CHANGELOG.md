@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 ## [Unreleased]
 
+## [8.0.1] — 2026–03–18
+
 ### Fixed
 
 - The dependencies have now been updated to versions that include security fixes.
@@ -113,7 +115,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and 
 
 - Base config for `eslint` without using `globals`, but with its re-export.
 
-[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v8.0.0...HEAD
+[Unreleased]: https://github.com/firefoxic/eslint-config/compare/v8.0.1...HEAD
+[8.0.1]: https://github.com/firefoxic/eslint-config/compare/v8.0.0...v8.0.1
 [8.0.0]: https://github.com/firefoxic/eslint-config/compare/v7.0.0...v8.0.0
 [7.0.0]: https://github.com/firefoxic/eslint-config/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/firefoxic/eslint-config/compare/v6.0.0...v6.0.1
