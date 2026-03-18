@@ -30,19 +30,19 @@
 		"!**/*.test.js"
 	],
 	"peerDependencies": {
-		"eslint": "^10.0.0"
+		"eslint": "^10.0.3"
 	},
 	"dependencies": {
-		"@stylistic/eslint-plugin": "^5.9.0",
+		"@stylistic/eslint-plugin": "^5.10.0",
 		"eslint-plugin-simple-import-sort": "^12.1.1",
-		"globals": "^17.3.0"
+		"globals": "^17.4.0"
 	},
 	"scripts": {
 		"help": "make help"
 	},
 	"devDependencies": {
-		"@typescript-eslint/parser": "^8.56.1",
-		"eslint": "^10.0.2"
+		"@typescript-eslint/parser": "^8.57.1",
+		"eslint": "^10.0.3"
 	},
 	"keywords": [
 		"config",
