@@ -2,6 +2,8 @@
 
 set -e
 
+export PATH="./node_modules/.bin:$PATH"
+
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then against=HEAD
 else against=$(git hash-object -t tree /dev/null)
@@ -18,6 +20,6 @@ if test -z "$changed_files"
 then exit 0
 fi
 
-node --run eslint -- $changed_files
+eslint $changed_files
 
 node --test --test-reporter dot
