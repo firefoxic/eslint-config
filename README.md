@@ -2,7 +2,6 @@
 
 [![License: MIT][license-image]][license-url]
 [![Changelog][changelog-image]][changelog-url]
-[![NPM version][npm-image]][npm-url]
 [![Test Status][test-image]][test-url]
 
 Shared config for eslint by [firefoxic](https://firefoxic.dev).
@@ -45,9 +44,6 @@ export default [
 
 [changelog-url]: https://github.com/firefoxic/eslint-config/blob/main/CHANGELOG.md
 [changelog-image]: https://img.shields.io/badge/CHANGELOG-md-limegreen
-
-[npm-url]: https://www.npmjs.com/package/@firefoxic/eslint-config
-[npm-image]: https://badge.fury.io/js/@firefoxic%2Feslint-config.svg
 
 [test-url]: https://github.com/firefoxic/eslint-config/actions
 [test-image]: https://github.com/firefoxic/eslint-config/actions/workflows/test.yaml/badge.svg?branch=main
